@@ -52,5 +52,10 @@ document.addEventListener('keydown', event => {
   }
 });
 
+function change_font(font) {
+  console.log(font);
+  document.documentElement.style.setProperty("--font-family", font);
+}
+
 // キー検出
 document.addEventListener('keypress', type);
