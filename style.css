@@ -1,15 +1,26 @@
+:root{
+  --font-family: Comic Sans MS;
+}
+
 #hackertyper{
   color: #00ff00;
-  font-family: Comic Sans MS
+  font-family: var(--font-family)
 }
+
+#radio{
+  font-size: 20px;
+}
+
 #granted{
-  "border-color: rgb(0, 255, 0);
+  border-color: rgb(0, 255, 0);
   display: block;
   color: limegreen;
   display: none;
   text-align: center;
   font-size: 30px;
 }
+
+/* ---------------------ハンバーガーメニュー--------------------------- */
 
 .menu-btn {
     position: fixed;

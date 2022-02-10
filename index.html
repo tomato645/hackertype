@@ -12,16 +12,18 @@
       <input type="checkbox" id="menu-btn-check">
       <label for="menu-btn-check" class="menu-btn"><span></span></label>
       <div class="menu-content">
+        <ul id="radio">
+          <li><label><b>Fonts</b></label></li>
+          <li><input type="radio" style="transform:scale(1.6);" onclick="change_font('Comic Sans MS')" name="font" checked><label>Comic Sans MS</label></li>
+          <li><input type="radio" style="transform:scale(1.6);" onclick="change_font('serif')" name="font"><label>serif</label></li>
+          <li><input type="radio" style="transform:scale(1.6);" onclick="change_font('monospace')" name="font"><label>monospace</label></li>
+          <li><input type="radio" style="transform:scale(1.6);" onclick="change_font('fantasy')" name="font"><label>fantasy</label></li>
+        </ul>
+    
         <ul>
-          <li>
-            <a href="#">メニューリンク1</a>
-          </li>
-          <li>
-            <a href="#">メニューリンク2</a>
-          </li>
-          <li>
-            <a href="#">メニューリンク3</a>
-          </li>
+          <li><a href="#">メニューリンク2</a></li>
+
+          <li><a href="#">メニューリンク3</a></li>
         </ul>
       </div>
     </div>
