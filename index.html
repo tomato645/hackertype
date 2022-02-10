@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <title>hackertyper</title>
-
     <link rel="stylesheet" href="style.css">
   </head>
 
@@ -19,11 +18,12 @@
           <li><input type="radio" style="transform:scale(1.6);" onclick="change_font('monospace')" name="font"><label>monospace</label></li>
           <li><input type="radio" style="transform:scale(1.6);" onclick="change_font('fantasy')" name="font"><label>fantasy</label></li>
         </ul>
-    
-        <ul>
-          <li><a href="#">メニューリンク2</a></li>
 
-          <li><a href="#">メニューリンク3</a></li>
+        <ul>
+          <li><a href="explain.html">説明Explain</a></li>
+
+          <li><label><b>Setting</b></label></li>
+          <li><label>Speed</label><label id="Speed_num">(5)</label><input onchange="random()" type="range" id="speed" min="0" max="30" value="5"></li>
         </ul>
       </div>
     </div>
@@ -37,8 +37,6 @@
     <div id="granted">
 				<h1>Access Granted</h1>
 		</div>
-
-    <script src="https://js.stripe.com/v3/"></script>
 
     <script src="script.js"></script>
   </body>
