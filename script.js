@@ -8,6 +8,7 @@ let len = sentens.length-sentens.length;
 let max__len = sentens.length;
 let show_sentens = ""
 
+// ランダムな文字数をsentensから表示
 function type(){
   if (len < max__len) {
     var repeat = Math.floor(Math.random() * (4 - 1) + 1);
@@ -24,17 +25,20 @@ function type(){
   }
 }
 
+// 成功表示
 function granted() {
   document.getElementById("hackertyper").innerHTML = "";
   document.getElementById('granted').style.display = 'inline';
 }
 
+// リセット
 function reset() {
   document.getElementById("granted").style.display = "none";
   len = 0;
   show_sentens = "";
 }
 
+// 隠しコマンド
 var num = 0;
 document.addEventListener('keydown', event => {
   if (event.ctrlKey) {
