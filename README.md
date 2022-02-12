@@ -4,7 +4,7 @@ But,you don't have to know words. <br/>
 You should do only type keybord!! <br/>
 
 # DEMO
-<a href="hackertyper-explein.png"></a>
+<img src="hackertyper-explein.png" width="40%">
 
 # Features
  Fun! Fun! Fun!
